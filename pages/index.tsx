@@ -1,6 +1,6 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
+import Script from "next/script";
 import type { NextPage } from "next";
 import Head from "next/head";
 const Index: NextPage = () => {
@@ -14,7 +14,7 @@ const Index: NextPage = () => {
           rel="stylesheet"
           href="https://app-framework.s3-ap-southeast-1.amazonaws.com/widget-css/61f126c860e11e0015600682.css"
         />
-        <script src="https://cdn.jsdelivr.net/gh/RFL-NFTPlatform/widget-maker/js/index.js" />
+        <Script src="https://cdn.jsdelivr.net/gh/RFL-NFTPlatform/widget-maker/js/index.js" />
       </Head>
       <Container>
         <div
