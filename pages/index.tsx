@@ -1,15 +1,11 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import Home from "../components/Home";
-
 const Index: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Home</title>
         <meta name="description" content="Home" />
