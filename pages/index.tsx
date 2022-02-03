@@ -17,7 +17,7 @@ const Index: NextPage = () => {
         <script src="https://cdn.jsdelivr.net/gh/RFL-NFTPlatform/widget-maker/js/index.js" />
       </Head>
       <Container>
-        <Box
+        <div
           id="61f126c860e11e0015600682"
           data-address="0xe84dd712c13bafa5f2c98ee24d93a58fd84352d5"
           data-title="Ducati"
@@ -33,7 +33,7 @@ const Index: NextPage = () => {
           data-hyperlink=""
           data-font-required="TrasandinaW03-BoldItalic,Roboto,Roboto Condensed"
           class="rfox-nft-widget"
-        ></Box>
+        ></div>
       </Container>
     </div>
   );
