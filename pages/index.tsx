@@ -32,7 +32,7 @@ const Index: NextPage = () => {
           data-text-finished="Sale finished. Thank you for your interest."
           data-hyperlink=""
           data-font-required="TrasandinaW03-BoldItalic,Roboto,Roboto Condensed"
-          class="rfox-nft-widget"
+          className="rfox-nft-widget"
         ></div>
       </Container>
     </div>
